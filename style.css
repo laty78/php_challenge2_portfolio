@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    padding-top: 50px;
+    
+
+}
+
+.menu-bar {
+    position: absolute;
+    top: 20px;    
+    left: 50%;
+    height: 24px;
+    margin-left: -10px;
+
+}
+
+.bars {
+    display: block;
+    width: 20px;
+    height: 3px;    
+    background-color: #333;
+    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
+
+
+}
+
+.menu {
+    display: none; 
+    width: 100%;
+    padding: 50px 20px 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000;
+    font-size: 20px;
+      background-image: url(arriere-plan.jpg);
+}
+
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}

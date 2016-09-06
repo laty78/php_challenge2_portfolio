@@ -1,0 +1,34 @@
+<! DOCTYPE html>
+<Html>
+<Head>
+  <Meta charset = "UTF-8">
+  <Meta http-equiv = "X-UA-Compatible" content = "IE = bord, chrome = 1">
+  <Title> Bonjour tout le monde en utilisant Backbone.js </ title>
+</ Head>
+<Body>
+  <! - ========= ->
+  <! - Votre HTML ->
+  <! - ========= -> <Div id = "container"> Chargement en cours ... </ div> <! - ========= ->
+  <! - Bibliothèques ->
+  <! - ========= ->
+  <Script src = "https://code.jquery.com/jquery-2.1.3.min.js" type = "text / javascript"> </ script>
+  <Script src = "http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js" type = "text / javascript"> </ script>
+  <Script src = "http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js" type = "text / javascript"> </ script>
+  <! - =============== ->
+  <! - Code Javascript ->
+  <! - =============== ->
+  <Script type = "text / javascript">
+    var APPVIEW = Backbone.View.extend ({
+      // El - signifie élément. Chaque vue a un élément associé à un contenu HTML, sera rendu.
+      le '#container'
+      // Il est la première fonction appelée lorsque ce point de vue est instancié.
+      initialiser: function () {
+        this.render ();
+      },
+      // $ El - c'est un objet mis en cache jQuery (el), dans lequel vous pouvez utiliser les fonctions jQuery pour pousser le contenu. Comme le Bonjour TutorialPoint dans ce cas.
+      render: function () {
+        . Cette $ el.html ( "Bonjour TutorialPoint !!!");
+      }
+    }); var APPVIEW = new APPVIEW ();
+  </ Script> </ body>
+</ Html>
