@@ -1,10 +1,12 @@
 body {
     font-family: 'Arimo', sans-serif;
-    padding-top: 50px;
+    padding-top: 100px;
     
-
 }
 
+.accueil{
+    background-image: url(plan.jpg);
+}
 .menu-bar {
     position: absolute;
     top: 20px;    
@@ -32,14 +34,18 @@ body {
     text-align: center;
     background-color: #000;
     font-size: 20px;
-      background-image: url(arriere-plan.jpg);
+    background-image: url(arriere-plan.jpg);
 }
 
-
-.img-center {
-    margin: 0 auto;
+.photo{
+    height: 400px;
+    width: 500px;
+    border-radius: 200px;
+  
 }
 
-footer {
-    margin: 50px 0;
-}
+/*h2, h3{
+    float: right;
+
+}*/
+
