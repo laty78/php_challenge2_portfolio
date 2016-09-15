@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<title>Pastime</title>
+
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<div id="menu"></div>
+	</div>
+
+		
+		<section id="photo">
+			<article id="text" id="bouton">
+			
+			   <h2>Lorem ipsum dolor sit amet.</h2>
+
+					<p> Vestibulum placerat ligula vel augue mattis euismod a rutrum leo. Nam at magna nec neque vulputate iaculis. Ut et dolor accumsan, ullamcorper neque quis, ultrices ex.</p>
+					<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas tincidunt augue quis nibh molestie elementum. Nullam eget urna justo. Nullam elit tortor, tincidunt ut arcu a, pellentesque finibus nibh. Nunc interdum tortor at feugiat luctus. Praesent euismod tincidunt accumsan.</p>
+					<a href="#"></a>
+			</article>
+		</section>
+			
+
+	<section id="blanc" class="box">
+			<article id="text1" id="bouton">
+			
+				<h2>Etiam varius eget turpis eget vestibulum.</h2>
+
+			 		<p>Nulla odio urna, cursus ac nibh et, sodales mattis neque. Mauris libero nisl, lacinia vitae aliquet in, sagittis eu neque. Sed eu feugiat erat, quis sodales ipsum.</p>
+			 		<p> Aliquam vitae ex orci. Curabitur volutpat ex vel tempor sagittis. Quisque viverra porttitor auctor. Sed feugiat, velit eget laoreet auctor, odio felis feugiat lorem, a ornare est velit nec sem. Donec tempus tempus lacus in vehicula. Ut sed nulla suscipit, feugiat diam id, mollis velit. </p>
+			 		<a href="#"></a>
+			 </article>
+	</section>
+
+	<section id="vert" class="box">
+			<article id="text" id="bouton">
+			
+				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+			 		<p>Etiam id dignissim magna. Ut rhoncus turpis non lorem ullamcorper fermentum. Mauris varius eros blandit ante venenatis, at interdum nulla lacinia.</p> 
+					<p>Vivamus lacus sem, pretium sed finibus et, elementum a turpis. Nulla viverra aliquam luctus. Etiam auctor tempor lacus, eu viverra ipsum ultricies eu. Donec sed tristique sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla non semper ligula. Nunc quis tincidunt leo. Integer ultricies sem eu porttitor auctor.</p>
+					<a href="#"></a>
+			</article>
+	</section>
+
+	<div id="footer"></div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+#container{
+background-color:white;
+opacity:0.8;
+width :1280px;
+height :2356px;
+background-position:center center;
+}
+
+
+
+body{
+background-color:black;
+
+}
+
+#header{
+width:1280px;
+height:100px;
+}
+
+#menu{}
+
+#photo{
+width:1280px;
+height:820px;
+background-repeat:no-repeat;
+background-position: center; 
+background-image:url(file:///home/laty/Bureau/Challenge_2-master/images/Lien%20vers%20banner.png);
+background-color:#3CB371;
+}
+
+
+
+#blanc{
+width:1280px;
+height:620px;
+}
+
+#vert{
+width:1280px;
+height:600px;
+background-color:#3CB371;
+}
+
+.box{}
+
+#footer{
+width:1280px;
+height:213px;
+}
+

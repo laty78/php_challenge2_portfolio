@@ -1,0 +1,73 @@
+#container{
+background-color: white;
+opacity:0.8;
+width :1280px;
+height :2356px;
+background-position:center center;
+}
+
+#text {
+width: 1000px;
+margin: auto;
+color: white;
+text-align: center;
+padding-top: 250px;
+}
+
+#bouton{
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background:url(images/bouton-noir.png) no-repeat;
+color:white;
+text-decoration:none;
+}
+#bouton a:hover {
+background:url(images/bouton-noir-2.png) no-repeat;
+}
+
+}
+
+#text1 {
+width: 1000px;
+margin: auto;
+text-align: center;	
+}
+
+#header{
+width:1280px;
+height:100px;
+}
+
+#menu{}
+
+#photo{
+width:1280px;
+height:720px;
+background-repeat:no-repeat;
+background-position: center; 
+background-image:url("images/banner.png");
+background-color:#3CB371;
+background-size: 100%;
+}
+
+
+#blanc{
+width:1280px;
+height:520px;
+}
+
+#vert{
+width:1280px;
+height:600px;
+background-color:#3CB371;
+}
+
+.box{}
+
+#footer{
+width:1280px;
+height:213px;
+}
