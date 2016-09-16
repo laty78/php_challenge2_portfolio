@@ -1,17 +1,52 @@
 body {
     font-family: 'Arimo', sans-serif;
-    padding-top: 100px;
-    
+    padding-top: 100px;    
 }
 
 .accueil{
-    background-image: url(plan.jpg);
+    background-image: url(images/arriere-plan.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000;
+
+
+
 }
+.about{
+  background-image: url(images/plan.jpg);
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  background-position: center;
+  background-color: #000;
+}
+.portfolio{
+  background-image: url(images/plan.jpg);
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  background-position: center;
+  background-color: #000;
+}
+.competence{
+  background-image: url(images/arriere-plan.jpg);
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  background-position: center;
+  background-color: #000;
+}
+.contact{
+  background-image: url(images/arriere-plan.jpg);
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  background-position: center;
+  background-color: #000;
+}
+
 .menu-bar {
     position: absolute;
     top: 20px;    
     left: 50%;
-    height: 24px;
+    height: 15px;
     margin-left: -10px;
 
 }
@@ -20,13 +55,13 @@ body {
     display: block;
     width: 20px;
     height: 3px;    
-    background-color: #333;
-    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
+   /* background-color: black;
+    box-shadow: 0 5px 0 #333, 0 10px 0 #333;*/
 
 
 }
 
-.menu {
+/*.menu {
     display: none; 
     width: 100%;
     padding: 50px 20px 50px;
@@ -35,92 +70,18 @@ body {
     background-color: #000;
     font-size: 20px;
     background-image: url(arriere-plan.jpg);
-}
+}*/
 
 .photo{
     height: 250px;
-    width: 100px;
+    width: 150px;
     border-radius: 150px;
   
 }
-.navbar-custom {
-  background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: none;
-}
-.navbar-custom a:focus {
-  outline: none;
-}
-.navbar-custom .navbar-brand {
-  color: white;
-}
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
-  color: white;
-}
-.navbar-custom .navbar-nav {
-  letter-spacing: 1px;
-}
-.navbar-custom .navbar-nav li a {
-  color: white;
-}
-.navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
-  outline: none;
-}
-.navbar-custom .navbar-nav li a:focus,
-.navbar-custom .navbar-nav li a:active {
-  color: white;
-}
-.navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #18BC9C;
-}
-.navbar-custom .navbar-nav li.active a:hover,
-.navbar-custom .navbar-nav li.active a:focus,
-.navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #18BC9C;
-}
-.navbar-custom .navbar-toggle {
-  color: white;
-  text-transform: uppercase;
-  font-size: 10px;
-  border-color: white;
-}
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
-  color: white;
-  border-color: #18BC9C;
-}
-@media (min-width: 768px) {
-  .navbar-custom {
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
-  }
-  .navbar-custom .navbar-brand {
-    font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .navbar-custom.affix {
-    padding: 10px 0;
-  }
-  .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
-  }
-}
+
 header {
   text-align: center;
-  background: #18BC9C;
+  /*background: black;*/
   color: white;
 }
 header .container {
@@ -156,18 +117,17 @@ header .intro-text .skills {
 
   /*page portfolio*/
 
-  body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
+
 
 .portfolio-item {
     margin-bottom: 25px;
    
 }
 
+
 .image{
      width: 300px;
-    height: 500px;
+    height: 400px;
 }
 
 footer {
