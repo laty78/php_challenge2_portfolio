@@ -1,4 +1,4 @@
-Ange il me manque le CV, le background de la navbar, l'ajustement de la photo, l'alignement des compétences(htlm,css...), le lien. 
+Ange il me manque le CV, le background de la navbar, l'ajustement de la photo, l'alignement des compétences(htlm,css...), le lien, la couleur blanche des paragraphes, le font-size dans l'accueil.
 
 ## Checklist
 
