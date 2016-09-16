@@ -1,16 +1,4 @@
-# Portfolio
-
-The target of this challenge is to realize your own portfolio. 
-This challenge shall be realized in several steps. 
-
-## Step 1
-
-The first step, to be delivered next week, is to realize a first draft using only front languages. Therefore HTML, CSS, JS... And has to be responsive. At the end of this step, the global structure of your website has to be defined.
-
-Any additional library is accepted as long as it stays a front language. But your portfolio has to always be displayable. Even when some parts are missing.. 
-
-Do not hesitate to play with Jade, SASS, LESS, CoffeeScript or JS libraries ! 
-A portfolio is to display to recruiters your skills. So show your best!
+Ange il me manque le CV, le background de la navbar, l'ajustement de la photo, l'alignement des compétences(htlm,css...), le lien. 
 
 ## Checklist
 
