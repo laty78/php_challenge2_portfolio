@@ -103,14 +103,25 @@ header .intro-text .skills {
 .image{
      width: 300px;
     height: 400px;
+
 }
 
 footer {
     margin: 50px 0;
 }
 
-/*h2, h3{
-    float: right;
+h3{
+    animation: bounceIn 2s; 
+}
 
-}*/
+.tyf{
+   -webkit-animation: nomAnim 5s linear 2s;
+        -moz-animation: nomAnim 5s linear 2s;
+         -ms-animation: nomAnim 5s linear 2s;
+          -o-animation: nomAnim 5s linear 2s;
+             animation: nomAnim 5s linear 2s;
+}
 
+.col-lg-4 img{
+
+}
