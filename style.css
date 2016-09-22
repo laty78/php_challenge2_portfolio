@@ -3,6 +3,11 @@ body {
     padding-top: 100px;    
 }
 
+p{
+  font-size: 16px;
+  color: white;
+}
+
 .accueil{
     background-image: url(images/arriere-plan.jpg);
     background-repeat: no-repeat;
@@ -41,48 +46,14 @@ body {
   background-position: center;
   background-color: #000;
 }
-
-.menu-bar {
-    position: absolute;
-    top: 20px;    
-    left: 50%;
-    height: 15px;
-    margin-left: -10px;
-
-}
-
-.bars {
-    display: block;
-    width: 20px;
-    height: 3px;    
-   /* background-color: black;
-    box-shadow: 0 5px 0 #333, 0 10px 0 #333;*/
-
-
-}
-
-/*.menu {
-    display: none; 
-    width: 100%;
-    padding: 50px 20px 50px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #000;
-    font-size: 20px;
-    background-image: url(arriere-plan.jpg);
-}*/
-
-.photo{
-    height: 250px;
-    width: 150px;
-    border-radius: 150px;
-  
+#mainNav{
+  background-color: #000;
 }
 
 header {
   text-align: center;
-  /*background: black;*/
   color: white;
+  font-size: 20px;
 }
 header .container {
   padding-top: 100px;
@@ -91,6 +62,10 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
+  height: 250px;
+    width: 150px;
+    border-radius: 10px;
+
 }
 header .intro-text .name {
   display: block;
